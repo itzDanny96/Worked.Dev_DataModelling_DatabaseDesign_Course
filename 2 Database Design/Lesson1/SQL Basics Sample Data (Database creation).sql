@@ -10,6 +10,7 @@ companyname VARCHAR(100) NOT NULL,
 phonenumber VARCHAR(15) NULL,
 country VARCHAR(50) NULL,
 city VARCHAR(50) NULL,
+PRIMARY KEY (companynumber)
 );
 
 CREATE TABLE contact (
@@ -18,6 +19,7 @@ contactcode CHAR(2) NOT NULL,
 companyname VARCHAR(50) NOT NULL,
 jobtitle VARCHAR(50) NULL,
 phonenumber VARCHAR(15) NULL,
+PRIMARY KEY (contactcode),
 );
 
 CREATE TABLE department (
@@ -37,6 +39,7 @@ salestarget DECIMAL(12,2) NULL,
 country VARCHAR(50) NULL,
 city CHAR(8) NULL,
 phonenumber VARCHAR(50) NULL,
+PRIMARY KEY (employeenumber)
 );
 
 CREATE TABLE sale (
@@ -47,6 +50,7 @@ companynumber INT NOT NULL,
 contactcode CHAR(2) NOT NULL,
 ordervalue DECIMAL(12,2) NULL,
 orderdate DATETIME NULL,
+PRIMARY KEY (ordernumber)
 );
 
 -- Check contents of workingdeadstore database

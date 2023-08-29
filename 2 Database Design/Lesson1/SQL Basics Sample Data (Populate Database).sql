@@ -13,7 +13,6 @@ VALUES
 (2,'01','Rest In Profits','Sales','02345678910'),
 (4,'02','Mortal Coil Capital','Technical Support','04567891230'),
 (3,'03','Last Breath Bank','Marketing','03456789120'),
-(2,'01','Rest In Profits','Sales','02345678910'),
 (1,'05','Ever After Enterprises','Manager','01234567890'),
 (5,'04','Afterlife Assets','Customer Service','05678912340');
 
